@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="erisdev">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="jasypt-1.9.0.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hapi-structures-v24-2.3.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/ca/uhn/hapi/hapi-structures-v24/2.3/hapi-structures-v24-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hapi-base-2.3.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/ca/uhn/hapi/hapi-base/2.3/hapi-base-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hapi-hl7overhttp-2.3.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/ca/uhn/hapi/hapi-hl7overhttp/2.3/hapi-hl7overhttp-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fontbox-2.0.6.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/pdfbox/fontbox/2.0.6/fontbox-2.0.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pdfbox-2.0.6.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/pdfbox/pdfbox/2.0.6/pdfbox-2.0.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections4-4.1.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.6.0.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.16.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi/3.16/poi-3.16.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.16.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.16.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml-schemas/3.16/poi-ooxml-schemas-3.16.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whm-persistence-model-2.0.jar" deploy-path="/APP-INF/lib" handle="module:/resource/whm-persistence-model/whm-persistence-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whm-persistence-facade-2.0.jar" deploy-path="/APP-INF/lib" handle="module:/resource/whm-persistence-facade/whm-persistence-facade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whm-business-management-2.0.jar" deploy-path="/APP-INF/lib" handle="module:/resource/whm-business-management/whm-business-management">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whm-services-2.0.war" deploy-path="/" handle="module:/resource/whm-services/whm-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.10.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.1.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/joda-time/joda-time/2.1/joda-time-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.6.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcprov-jdk16-1.46.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcmail-jdk16-1.46.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/bouncycastle/bcmail-jdk16/1.46/bcmail-jdk16-1.46.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0.1.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="curvesapi-1.04.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.10.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
